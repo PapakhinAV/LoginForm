@@ -1,0 +1,65 @@
+.backgroundLayer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modalForm{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.lableForm{
+width: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.5em;
+}
+
+.elementAuth{
+margin-bottom:  20px;
+width: 70%;
+display: flex;
+justify-content: space-around;
+}
+
+.inputForm{
+width: 60%;
+}
+
+@media all and (max-width: 769px) {
+.lableForm{
+padding-left: 5px;
+font-size: 1em;
+width: 50px;
+}
+.elementAuth{
+margin-bottom:  10px;
+width: 100%;
+justify-content:start;
+
+}
+.inputForm{
+width: 100%;
+}
+.modalForm{
+padding: 5px;
+}
+
+
+}
